@@ -1,6 +1,17 @@
 import streamlit as st
 from funciones import carga, limpieza, estadisticas
 
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="https://img2.rtve.es/n/16253192?w=1600" 
+             alt="Banner Estadística" 
+             style="width:100%; height:200px; object-fit:cover;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.set_page_config(page_title="Laboratorio de Estadística", layout="wide")
 st.title("Laboratorio de Estadística Inferencial")
 
